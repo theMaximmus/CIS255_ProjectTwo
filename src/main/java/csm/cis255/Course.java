@@ -132,7 +132,6 @@ public class Course {
         }
     }
 
-    // TODO: Use Ternary conditional operator: "? a : b" (?) or something different
     /**
      * Checks whether there is room in the course's seats.
      * @return A boolean value whether there is room or not
@@ -173,7 +172,7 @@ public class Course {
         return false;
     }
 
-    //helper to add studenbt
+    //helper to add student
     private Student[] addStudentToArray(Student[] array, Student student) {
         //array empty, make new array containing student
         if (array == null) {
@@ -199,7 +198,6 @@ public class Course {
         return newArray;
     }
 
-    // TODO: Finish the method
     @Override
     public String toString() {
         return "Course:\n" +
