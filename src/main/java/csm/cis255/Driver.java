@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Driver {
     public static void main(String[] args) {
-        Course course = new Course("CIS 255", 10, 2);
+        Course course = new Course("CIS 255", 2, 2);
         System.out.println("Welcome to course " + course.getName() + ". The maximum number of students in this course roster is " + course.getMaximumStudentsOnRoster() + ", and the maximum waitlist seats are " + course.getMaximumStudentsOnWaitlist() + ".");
 
         Scanner scanner = new Scanner(System.in);
