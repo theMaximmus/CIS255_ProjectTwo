@@ -1,7 +1,5 @@
 package csm.cis255;
 
-// STILL WORKING BUT ALMOST DONE - Elizabeth
-
 import java.util.ArrayList;
 
 public class CourseAL {
@@ -51,11 +49,11 @@ public class CourseAL {
         this.maximumStudentsOnWaitlist = maximumStudentsOnWaitlist;
     }
 
-    public int getCurrentStudentsEnrolled() {
+    public int getNumEnrolled() {
         return roster.size();
     }
 
-    public int getCurrentStudentsOnWaitlist() {
+    public int getNumWaitlist() {
         return waitlist.size();
     }
 
@@ -99,3 +97,4 @@ public class CourseAL {
                 "\tWaitlist: " + waitlist;
     }
 }
+
